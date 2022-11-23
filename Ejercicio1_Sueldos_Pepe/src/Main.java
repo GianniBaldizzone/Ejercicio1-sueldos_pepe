@@ -8,14 +8,11 @@ public class Main {
 
         Cadete pepito = new Cadete("Pepito",
                 1,
-                "malo");
-    pepe.fijarBonoPorPresentismo(pepe.getDiasAusente());
-    pepe.fijarBonoPorDesempeño(pepe.getSueldoNeto());
-    pepe.fijarSueldo(pepe.getSueldoNeto());
+                "bueno");
 
-    pepito.fijarBonoPorPresentismo(pepito.getDiasAusente());
-    pepito.fijarBonoPorDesempeño(pepito.getSueldoNeto());
-    pepito.fijarSueldo(pepito.getSueldoNeto());
+
+    pepe.fijarBonosYSueldo();
+    pepito.fijarBonosYSueldo();
 
 
     }
