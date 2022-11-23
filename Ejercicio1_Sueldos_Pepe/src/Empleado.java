@@ -1,14 +1,14 @@
 public class Empleado {
     private String nombre;
     private int diasAusente;
-    private Boolean tieneBonoResultado;
-    private int sueldoNeto;
+    private String desempeñoBuenoMedioMalo;
 
-    public Empleado(String nombre, int diasAusente, Boolean tieneBonoResultado, int sueldoNeto) {
+
+    public Empleado(String nombre, int diasAusente, String desempeñoBuenoMedioMalo) {
         this.nombre = nombre;
         this.diasAusente = diasAusente;
-        this.tieneBonoResultado = tieneBonoResultado;
-        this.sueldoNeto = sueldoNeto;
+        this.desempeñoBuenoMedioMalo = desempeñoBuenoMedioMalo;
+
     }
 
     public String getNombre() {
@@ -27,19 +27,13 @@ public class Empleado {
         this.diasAusente = diasAusente;
     }
 
-    public Boolean getTieneBonoResultado() {
-        return tieneBonoResultado;
+    public String getDesempeñoBuenoMedioMalo() {
+        return desempeñoBuenoMedioMalo;
     }
 
-    public void setTieneBonoResultado(Boolean tieneBonoResultado) {
-        this.tieneBonoResultado = tieneBonoResultado;
+    public void setDesempeñoBuenoMedioMalo(String desempeñoBuenoMedioMalo) {
+        this.desempeñoBuenoMedioMalo = desempeñoBuenoMedioMalo;
     }
 
-    public int getSueldoNeto() {
-        return sueldoNeto;
-    }
 
-    public void setSueldoNeto(int sueldoNeto) {
-        this.sueldoNeto = sueldoNeto;
-    }
 }
